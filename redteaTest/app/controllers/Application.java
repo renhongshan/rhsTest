@@ -9,6 +9,10 @@ public class Application extends Controller {
 
     public static Result index() {
         return ok("Your new application is ready.");
-    }    
+    }  
+    
+    public static Result helloWorld() {
+        return ok("Hello World");
+    }  
 
 }
